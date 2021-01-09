@@ -7,6 +7,7 @@ public class Area {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         Double radius;
+        Double pie = 3.14;
 
         do {
             System.out.println("Enter a radius: ");
