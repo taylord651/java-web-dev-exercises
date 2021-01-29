@@ -49,4 +49,8 @@ public class Student {
     public void setGpa(double aGpa) {
         gpa = aGpa;
     }
+
+    public String toString() {
+        return ("Name: " + name + "\n" + "ID: " + studentId + "\n" + "Number of Credits: " + numberOfCredits + "\n" + "GPA: " + gpa);
+    }
 }

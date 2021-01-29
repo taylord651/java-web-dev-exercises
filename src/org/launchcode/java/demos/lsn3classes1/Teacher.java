@@ -37,4 +37,8 @@ public class Teacher {
     public void setYearsTeaching(int aYearsTeaching) {
         yearsTeaching = aYearsTeaching;
     }
+
+    public String toString() {
+        return ("Name: " + lastName + ", " + firstName + "\n" + "Subject: " + subject + "\n" + "Years Teaching: " + yearsTeaching);
+    }
 }

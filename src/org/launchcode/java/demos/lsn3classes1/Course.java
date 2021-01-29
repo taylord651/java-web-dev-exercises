@@ -37,4 +37,29 @@ public class Course {
         roster = aRoster;
     }
 
+    public String toString() {
+        return ("Course: " + courseNumber + "\n" + "Number: " + courseNumber + "\n" + "Roster: " + roster);
+    }
+
+    /*
+    public Boolean equals() {
+        if () {
+
+        }
+
+        if () {
+
+        }
+
+        if () {
+
+        }
+
+        if () {
+            
+        }
+        return true;
+    }
+
+     */
 }
